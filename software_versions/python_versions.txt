@@ -1,0 +1,12 @@
+# Bash
+module load conda_R/4.0.x
+python --version # Returns 'Python 3.8.2'
+python3
+
+# python
+import sys
+import pysam
+
+pysam.__version__ # Returns '0.16.0.1'
+sys.version # Returns '3.8.2 | packaged by conda-forge | (default, Apr 24 2020, 08:20:52) \n[GCC 7.3.0]'
+
